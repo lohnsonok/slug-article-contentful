@@ -1,40 +1,6 @@
 {
-  "id": "slug-Article",
-  "name": "slug-Article",
-  "srcdoc": "./build/index.html",
-  "fieldTypes": [
-    "Text"
-  ],
-  "parameters": {
-    "installation": [
-      {
-        "id": "devMode",
-        "type": "Boolean",
-        "name": "Run in development mode"
-      },
-      {
-        "id": "retries",
-        "type": "Number",
-        "name": "Number of retries for API calls",
-        "required": true,
-        "default": 3
-      }
-    ],
-    "instance": [
-      {
-        "id": "helpText",
-        "type": "Symbol",
-        "name": "Help text",
-        "description": "Help text for a user to help them understand the editor"
-      },
-      {
-        "id": "theme",
-        "type": "Enum",
-        "name": "Theme",
-        "options": [{"light": "Solarized light"}, {"dark": "Solarized dark"}],
-        "default": "light",
-        "required": true
-      }
-    ]
-  }
+  "id": "slug article",
+  "name": "Slug Article",
+  "srcdoc": "./index.html",
+  "fieldTypes": ["Symbol"]
 }
